@@ -1,0 +1,17 @@
+#container {
+    display: grid;
+grid-gap: 20px;
+grid-template-columns: repeat(4, 100px);
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: rgb(20, 20, 20);
+}
+
+.clicked {
+  background-color: rgb(111, 111, 111);
+}
